@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taller 2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-info">
+            <a class="navbar-brand" href="#" >
+                <img src="support/topbar.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                TV Series
+            </a>
+        </nav>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead class="thead-light">
+                           <tr>
+                              <th>#</th>
+                              <th>Name</th>
+                              <th>Channel</th>
+                              <th>Seasons</th>
+                           </tr>
+                        </thead>
+                        <tbody id="series">
+                        </tbody>
+                    </table>
+                    <p id="seasonsAverage"></p>
+                </div>
+                <div class="col">
+                    <div class="card" id="idcard"></div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="./scripts/serie.js" ></script>
+        <script type="module" src="./scripts/dataSeries.js" ></script>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>    
+</html>
